@@ -1,9 +1,9 @@
-# Perspective transformation matrix
+# Manually Computing a Perspective Transformation Matrix
 Python function to manually compute a perspective transform matrix from the given rotations <img src="https://latex.codecogs.com/svg.latex?%5Ctheta"/> (around the z-axis) and <img src="https://latex.codecogs.com/svg.latex?%5Cphi"/> (around the x-axis) in the camera frame.
 
 The resulting 3x3 transform matrix can then be plugged into OpenCV and Tensorflow using `cv2.warpPerspective` and `tf.contrib.image.transform`.
 
-<div>
+<div align="center">
     <table align="center">
 	    <tr>
             <td style="padding:5px">
